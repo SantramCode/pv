@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .hd01{
+        background-color: #4CAF50;
+        color:white;
+        font-family: arial;
+        padding: 20px;
+        font-size: 20px;
+    }
+    h1{
+        margin-top: 2px;
+    }
+    .rows{
+        font-size: 17px;
+        column-count: 3;
+        column-gap: 10px;
+        margin: 20px;
+        
+    }
+    .col1{
+        float: left;
+        
+        
+    }
+    @media screen and (max-width:600px){
+        .rows{
+            column-count: 1;
+        }
+        .col1{
+            float:none
+        }
+    }
+    
+    
+</style>
+<body>
+
+<div class="hd01">
+  <h1>W3Schools Demo</h1> 
+  <p>Resize this responsive page!</p> 
+</div>
+
+<div class="rows">
+  <div class="col1">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>It is the most populous city in the United Kingdom,
+    with a metropolitan area of over 13 million inhabitants.</p>
+  </div>
+
+  <div class="col1">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p> 
+    <p>The Paris area is one of the largest population centers in Europe,
+    with more than 12 million inhabitants.</p>
+  </div>
+
+  <div class="col1">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+    <p>It is the center of the Greater Tokyo Area,
+    and the most populous metropolitan area in the world.</p>
+  </div>
+</div>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/css/tryit.asp?filename=tryresponsive_w3css by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Apr 2019 03:38:54 GMT -->
+</html>
